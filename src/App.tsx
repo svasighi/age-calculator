@@ -107,8 +107,8 @@ function App() {
         </form>
         <Result years={years} months={months} days={days} />
       </div>
-      <div
-        className="flex-col-center  absolute bottom-10 left-10 h-16 w-16 rounded-full bg-gray-900 dark:bg-gray-100"
+      <button
+        className="flex-col-center absolute  bottom-10 left-10 h-16 w-16 rounded-full bg-gray-900 dark:bg-gray-100"
         onClick={toggleDarkMode}
       >
         <svg className="h-9 w-9 " viewBox="4.45 2.03 19.11 23.93">
@@ -117,7 +117,7 @@ function App() {
             d="M21.054 4.356H15.66v4.135h4.7v2h-4.7v2.55h4.7v2h-4.7v2.55h2.683v2H15.66v3.653h5.393a2.5 2.5 0 0 0 2.5-2.5V6.858a2.5 2.5 0 0 0-2.499-2.502ZM12.556 4.356H6.947a2.5 2.5 0 0 0-2.5 2.5v13.887a2.5 2.5 0 0 0 2.5 2.5h5.609v2.722h2V2.033h-2ZM6.947 21.245a.5.5 0 0 1-.5-.5V6.858a.5.5 0 0 1 .5-.5h5.609v2.133H8.488v2h4.067v2.55H8.488v2h4.067v2.55H8.411v2h4.145v1.653Z"
           ></path>
         </svg>
-      </div>
+      </button>
     </div>
   );
 }
