@@ -12,6 +12,7 @@ const Input = ({
   className,
   placeholder,
   register,
+  type,
 }: InputProps): JSX.Element => (
   <div className={className}>
     <label
@@ -33,6 +34,7 @@ const Input = ({
       )}
       placeholder={placeholder}
       name={name}
+      type={type}
       {...register}
     />
     {error != "" && (
