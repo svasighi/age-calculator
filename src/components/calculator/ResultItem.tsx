@@ -50,7 +50,7 @@ export default function ResultItem({
   }, [count]);
 
   return (
-    <div className="font-poppins font-bold text-off-black">
+    <div className="font-poppins font-bold text-off-black dark:text-slate-400">
       <span ref={ref} className="text-purple">
         - -
       </span>{" "}

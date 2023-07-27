@@ -2,7 +2,7 @@
 @tailwind components;
 
 body {
-  @apply h-screen bg-off-white;
+  @apply h-screen bg-off-white dark:bg-gray-800;
 }
 
 @tailwind utilities;
