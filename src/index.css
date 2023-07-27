@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+
+body {
+  @apply h-screen bg-off-white;
+}
+
+@tailwind utilities;
+
+@layer utilities {
+  .flex-col-center {
+    @apply flex flex-col items-center justify-center;
+  }
+}
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
